@@ -1,0 +1,97 @@
+.admin-dashboard {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-book-form, .borrowed-books {
+  width: 48%; /* Both sections take up equal space */
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.add-book-form h2, .borrowed-books h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.add-book-form label {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 120px;
+  color: #555;
+}
+
+.add-book-form input, .add-book-form textarea {
+ 
+  width: 400px;
+  padding: 8px;
+  margin-top: 5px;
+  margin-left: 0%;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-book-form textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+.add-book-form button {
+ margin-left: 30%;
+  width: 100%;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-book-form button:hover {
+  background: #0056b3;
+}
+
+.user-book-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-book-table th, .user-book-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.user-book-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.user-book-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.user-book-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.user-book-table td {
+  color: #555;
+}
